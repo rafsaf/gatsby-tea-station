@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import Header from "../components/Header"
 import Dividier from "../components/Dividier"
 import Skills from "../components/Skills"
+import About from "../components/About"
 
 const index = () => {
   return (
@@ -10,6 +11,7 @@ const index = () => {
       <Header />
       <Dividier />
       <Skills />
+      <About />
     </Layout>
   )
 }

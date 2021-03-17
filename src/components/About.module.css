@@ -1,0 +1,54 @@
+.sectionTitle h3 {
+  color: green;
+  font-family: cursive;
+}
+.sectionTitle {
+  margin-bottom: 2rem;
+}
+.sectionCenter {
+  padding: 5rem 0;
+  width: 85vw;
+  margin: 0 auto;
+  max-width: 1178px;
+}
+@media screen and (min-width: 992px) {
+  .sectionCenter {
+    width: 95vw;
+    padding: 4rem 1rem;
+  }
+}
+
+.aboutImg,
+.aboutInfo {
+  padding: 2rem 0;
+}
+
+.aboutPictureContainer {
+  background: green;
+  border: 0.5rem solid green;
+  max-width: 40rem;
+  /* extra stuff */
+  overflow: hidden;
+}
+
+.aboutPicture {
+  transition: 0.3s linear;
+}
+.aboutPictureContainer:hover .aboutPicture {
+  opacity: 0.5;
+  transform: scale(1.2);
+}
+.aboutText {
+  max-width: 26rem;
+  color: grey;
+}
+@media screen and (min-width: 992px) {
+  .aboutImg,
+  .aboutInfo {
+    float: left;
+    width: 50%;
+  }
+  .aboutInfo {
+    padding: 5rem;
+  }
+}

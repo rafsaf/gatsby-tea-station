@@ -69,6 +69,7 @@ p {
 .clearfix::before {
   content: "";
   clear: both;
+  display: table;
 }
 @media screen and (min-width: 800px) {
   h1 {
