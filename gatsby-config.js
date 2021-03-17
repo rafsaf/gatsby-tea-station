@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "gatsby-tea-station",
+    siteUrl: "https://gatsby-tea-station.netlify.app/",
   },
   plugins: [
     "gatsby-plugin-image",
@@ -23,4 +24,4 @@ module.exports = {
       __key: "images",
     },
   ],
-};
+}
