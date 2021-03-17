@@ -26,8 +26,6 @@
   max-width: 17rem;
   margin: 0 auto;
 }
-.skillTitle {
-}
 
 @media screen and (min-width: 576px) {
   .skill {

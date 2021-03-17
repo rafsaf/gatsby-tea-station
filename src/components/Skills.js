@@ -33,7 +33,7 @@ const Skill = ({ icon, title, text }) => {
   return (
     <article className={styles.skill}>
       <span className={styles.skillIcon}>{icon}</span>
-      <h4 className={styles.skillTitle}>{title}</h4>
+      <h4>{title}</h4>
       <p className={styles.skillText}>{text}</p>
     </article>
   )
