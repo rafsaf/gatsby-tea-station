@@ -41,7 +41,7 @@ const Skill = ({ icon, title, text }) => {
 
 const Skills = () => {
   return (
-    <section className={styles.skills + " clearfix"}>
+    <section className={styles.skills}>
       {skillsData.map((item) => (
         <Skill
           key={item.title}

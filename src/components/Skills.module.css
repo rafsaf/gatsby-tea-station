@@ -1,6 +1,12 @@
 .skills {
   background: rgb(238, 235, 235);
 }
+.skills::before,
+.skills::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 .skill {
   background: rgb(238, 235, 235);
   padding: 2.5rem;

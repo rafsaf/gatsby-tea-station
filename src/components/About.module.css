@@ -11,6 +11,12 @@
   margin: 0 auto;
   max-width: 1178px;
 }
+.sectionCenter::before,
+.sectionCenter::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 @media screen and (min-width: 992px) {
   .sectionCenter {
     width: 95vw;

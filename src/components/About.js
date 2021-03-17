@@ -1,14 +1,33 @@
 import React from "react"
+import { graphql, useStaticQuery } from "gatsby"
 import * as styles from "./About.module.css"
-import Img from "../images/about-bcg.jpeg"
+import Image from "gatsby-image"
+
+const query = graphql`
+  {
+    file(relativePath: { eq: "about-bcg.jpeg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
 
 const About = () => {
+  const {
+    file: {
+      childImageSharp: { fluid },
+    },
+  } = useStaticQuery(query)
+
   return (
     <section>
-      <div className={styles.sectionCenter + " clearfix"}>
+      <div className={styles.sectionCenter}>
         <article className={styles.aboutImg}>
           <div className={styles.aboutPictureContainer}>
-            <img alt="tea-kettle" src={Img} className={styles.aboutPicture} />
+            <Image fluid={fluid} className={styles.aboutPicture} />
           </div>
         </article>
         <article className={styles.aboutInfo}>
