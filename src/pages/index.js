@@ -4,6 +4,7 @@ import Header from "../components/Header"
 import Dividier from "../components/Dividier"
 import Skills from "../components/Skills"
 import About from "../components/About"
+import Products from "../components/Products"
 
 const index = () => {
   return (
@@ -12,6 +13,7 @@ const index = () => {
       <Dividier />
       <Skills />
       <About />
+      <Products />
     </Layout>
   )
 }
