@@ -5,7 +5,7 @@ import Image from "gatsby-image"
 
 const query = graphql`
   {
-    file(relativePath: { eq: "main-bcg.jpeg" }) {
+    file(relativePath: { eq: "main-bcg.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
