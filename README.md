@@ -15,7 +15,7 @@
      clear: both;
      display: table;
    }
-   /* item (child element) is inside a row */
+   /* items (child element) are inside a row */
    @media screen and (min-width: 576px) {
      .item {
        float: left;
