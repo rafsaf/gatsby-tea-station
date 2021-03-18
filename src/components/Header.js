@@ -1,31 +1,16 @@
 import React from "react"
 import * as styles from "./Header.module.css"
-import { graphql, useStaticQuery } from "gatsby"
-import Image from "gatsby-image"
-
-const query = graphql`
-  {
-    file(relativePath: { eq: "main-bcg.jpg" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`
+import { StaticImage } from "gatsby-plugin-image"
 
 const Header = () => {
-  const {
-    file: {
-      childImageSharp: { fluid },
-    },
-  } = useStaticQuery(query)
-
   return (
     <header className={styles.header}>
-      <Image fluid={fluid} className={styles.image} />
-
+      <StaticImage
+        src="../images/main.jpg"
+        alt=""
+        layout="fullWidth"
+        className={styles.image}
+      />
       <div className={styles.banner}>
         <h2 className={styles.bannerText}>Over one hundred Lavours of </h2>
         <h1 className={styles.bannerTitle}>
