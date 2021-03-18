@@ -47,7 +47,9 @@ const About = () => {
               scelerisque enim eu tortor congue, vitae.
             </p>
           </div>
-          <button className={styles.btn}>Learn more</button>
+          <a href="/" className={styles.btn}>
+            Learn more
+          </a>
         </article>
       </div>
     </section>

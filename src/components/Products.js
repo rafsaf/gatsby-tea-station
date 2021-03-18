@@ -34,7 +34,7 @@ const Products = () => {
 
   return (
     <section className={styles.products}>
-      <div className={styles.sectionCenter + " " + styles.clearfix}>
+      <div className={styles.sectionCenter}>
         <article className={styles.productsInfo}>
           <div className={styles.sectionTitle}>
             <h3>check out</h3>
@@ -44,17 +44,17 @@ const Products = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
             scelerisque enim eu tortor congue, vitae.
           </p>
-          <a className={styles.btn} href="#">
+          <a className={styles.btn} href="/">
             check out
           </a>
         </article>
-        <article className={styles.productsInventory + " " + styles.clearfix}>
+        <article className={styles.productsInventory}>
           <div className={styles.product}>
             <Image
               fluid={data.one.childImageSharp.fluid}
               className={styles.productImg}
             />
-            <h4 className={styles.productTitle}>ginger peach tea</h4>
+            <h4>ginger peach tea</h4>
             <h4 className={styles.productPrice}>$6.99</h4>
           </div>
           <div className={styles.product}>
@@ -62,7 +62,7 @@ const Products = () => {
               fluid={data.two.childImageSharp.fluid}
               className={styles.productImg}
             />
-            <h4 className={styles.productTitle}>fruit sangria</h4>
+            <h4>fruit sangria</h4>
             <h4 className={styles.productPrice}>$5.99</h4>
           </div>
           <div className={styles.product}>
@@ -70,7 +70,7 @@ const Products = () => {
               fluid={data.three.childImageSharp.fluid}
               className={styles.productImg}
             />
-            <h4 className={styles.productTitle}>white tea</h4>
+            <h4>white tea</h4>
             <h4 className={styles.productPrice}>$9.99</h4>
           </div>
         </article>

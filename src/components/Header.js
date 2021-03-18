@@ -1,6 +1,6 @@
 import React from "react"
 import * as styles from "./Header.module.css"
-import { Link, graphql, useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import Image from "gatsby-image"
 
 const query = graphql`
@@ -24,17 +24,16 @@ const Header = () => {
 
   return (
     <header className={styles.header}>
-      <div className={styles.imageContainer}>
-        <Image fluid={fluid} className={styles.image} />
-      </div>
+      <Image fluid={fluid} className={styles.image} />
+
       <div className={styles.banner}>
         <h2 className={styles.bannerText}>Over one hundred Lavours of </h2>
         <h1 className={styles.bannerTitle}>
           Specially <br /> Crafted Tea
         </h1>
-        <Link to="/skills" className={styles.btn + " " + styles.bannerBtn}>
+        <a href="/" className={styles.btn + " " + styles.bannerBtn}>
           explore
-        </Link>
+        </a>
       </div>
     </header>
   )
