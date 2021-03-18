@@ -22,6 +22,7 @@ const Footer = () => {
             <span>Tea Station</span> Project Based on HTML & CSS course, please
             refer www.johnsmilga.com
           </h4>
+          <h4>&#169; rafsaf.pl</h4>
         </div>
       </article>
     </footer>

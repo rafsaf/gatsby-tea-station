@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import Layout from "../components/Layout"
 import Header from "../components/Header"
 import Dividier from "../components/Dividier"
@@ -11,6 +12,11 @@ import Footer from "../components/Footer"
 const index = () => {
   return (
     <Layout>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Tea Station</title>
+        <meta name="description" content="Tea Station project with Gatsby.js" />
+      </Helmet>
       <Header />
       <Dividier />
       <Skills />

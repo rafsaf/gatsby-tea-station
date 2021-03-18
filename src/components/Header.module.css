@@ -4,7 +4,7 @@
 }
 
 .image {
-  filter: brightness(50%);
+  filter: brightness(55%);
   height: 100vh;
 }
 .banner {
@@ -16,7 +16,7 @@
 }
 .bannerText {
   font-family: "Grand Hotel", "cursive";
-  color: green;
+  color: rgb(126, 163, 126);
   /* animation */
 }
 .bannerTitle {
