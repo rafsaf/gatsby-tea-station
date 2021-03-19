@@ -1,6 +1,6 @@
 # Gatsby Tea Station project
 
-1. **One of the projects for the development of css & web dev & etc. skills. Currently deployed on netlify [gatsby-tea-station.netlify.app](https://rafsaf-gatsby-tea-station.netlify.app/)**
+1. **One of the projects for the development of css & web dev & etc. skills. Currently deployed on netlify [rafsaf-gatsby-tea-station.netlify.app](https://rafsaf-gatsby-tea-station.netlify.app/)**
 
 2. **Created using [Gatsby.js](https://www.gatsbyjs.com/).**
 
