@@ -9,6 +9,7 @@ const Header = () => {
         src="../images/main.jpg"
         alt=""
         layout="fullWidth"
+        placeholder="blurred"
         className={styles.image}
       />
       <div className={styles.banner}>
